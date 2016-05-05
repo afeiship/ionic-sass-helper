@@ -1,0 +1,22 @@
+{
+  "name": "ionic-sass-helper",
+  "version": "0.0.0",
+  "description": "Sass helper for ionic web app &amp; web page.",
+  "homepage": "https://github.com/afeiship/ionic-sass-helper",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "~2.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "~3.0.2",
+    "gulp-debug": "^2.1.2",
+    "gulp-minify-css": "~1.2.1",
+    "gulp-sass": "~2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "lodash": "~3.10.1",
+    "rename": "^1.0.3"
+  }
+}
