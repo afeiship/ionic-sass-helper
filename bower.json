@@ -1,7 +1,10 @@
 {
   "name": "ionic-sass-helper",
   "description": "Sass helper for ionic web app &amp; web page.",
-  "main": "dist/ionic-sass-helper.css",
+  "main": [
+    "src",
+    "dist/ionic-sass-helper.css"
+  ],
   "authors": [
     "afei"
   ],
