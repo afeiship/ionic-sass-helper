@@ -2,14 +2,14 @@
 @each $value in $line-height-list{
   .hlh{
     &#{$value}{
-      height:$value;
-      line-height:$value;
+      height:#{$value}px;
+      line-height:#{$value}px;
     }
   }
 
   .lh{
     &#{$value}{
-      line-height:$value;
+      line-height:#{$value}px;
     }
   }
 }
