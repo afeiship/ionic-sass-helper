@@ -1,0 +1,16 @@
+/**line-height Start**/
+@each $value in $line-height-list{
+  .hlh{
+    &#{$value}{
+      height:$value;
+      line-height:$value;
+    }
+  }
+
+  .lh{
+    &#{$value}{
+      line-height:$value;
+    }
+  }
+}
+/**line-height  End**/
