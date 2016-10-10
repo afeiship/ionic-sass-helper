@@ -1,22 +1,22 @@
 /**margin Start**/
-$margin-list: (
-  top,
-  right,
-  bottom,
-  left
-);
-
-@each $item in $margin-list {
+$margin-map: ( top, right, bottom, left );
+@each $item in $margin-map {
   .margin-#{$item} {
     margin-#{$item}: $content-margin;
   }
 }
 
 .auto {
-  margin: {
-    left: 0;
-    right: 0;
-  }
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.m0a {
+  margin: 0 auto;
 }
 
 .margin-vertical {
@@ -32,5 +32,4 @@ $margin-list: (
     bottom: $content-margin;
   }
 }
-
 /**margin  End**/
