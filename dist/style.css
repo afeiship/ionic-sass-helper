@@ -13,6 +13,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**reset  End**/
+/**align Start**/
+.vat,
+.vat_ > * {
+  vertical-align: top;
+}
+
+.vab,
+.vab_ > * {
+  vertical-align: bottom;
+}
+
+.vam,
+.vam_ > * {
+  vertical-align: middle;
+}
+
+/**align  End**/
+/**border Start**/
+.bdn {
+  border: none;
+}
+
+/**border End**/
 /**clearfix Start**/
 /**
  * http://nicolasgallagher.com/micro-clearfix-hack/
@@ -1457,6 +1480,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 
+.bgn {
+  background: none;
+}
+
 /**background  End**/
 /**font-size Start**/
 .f10 {
@@ -1790,6 +1817,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**line-height  End**/
+/**text Start**/
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.ell {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/**text  End**/
 /**width Start**/
 .w0 {
   width: 0;
